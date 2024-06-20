@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: maycon
+      MYSQL_DATABASE: nest
+    ports:
+      - "3307:3306"
